@@ -72,7 +72,7 @@ def check_password_strength(password):
 
     #feedback
     if feedback:
-        with st.expander("🔍**Improcve your password** "):
+        with st.expander("🔍**Improve your password** "):
             for item in feedback:
                 st.write(item)
 password = st.text_input("Enter your password:", type="password", help="Ensure your password is strong 🔐.")
